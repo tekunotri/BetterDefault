@@ -1,0 +1,5 @@
+#base "scheme/preload.res"
+#base "scheme/menu_general.res"
+//#base "../ui/scheme/menu_quickaccess.res"
+#base "scheme/menu_maxihudinfo.res"
+//#base "../ui/scheme/menu_specialbuttons.res"

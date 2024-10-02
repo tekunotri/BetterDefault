@@ -1,0 +1,13 @@
+/////////////////////////////////
+// How to enable the hitmarker //
+/////////////////////////////////
+
+--------------------------------------------------------------------------------------
+
+Go into the “scripts” folder and open “hudanimations.txt”
+
+Remove “//” from “event DamagedPlayer” and save the file.
+
+--------------------------------------------------------------------------------------
+
+● Enabling the hitmarker can cause performance issues when playing MvM.

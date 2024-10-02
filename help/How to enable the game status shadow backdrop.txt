@@ -1,0 +1,13 @@
+///////////////////////////////////////////////////
+// How to enable the game status shadow backdrop //
+///////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------------
+
+Go into the folders “resource/ui” and open “hudobjectivetimepanel.res”.
+
+Find “ShadowBackdrop” and set "visible" to "1" and save the file.
+
+--------------------------------------------------------------------------------------
+
+● When you make it visible, it'll always stay visible even if there's no game status text.

@@ -1,0 +1,128 @@
+Scheme
+{
+	"QuickAccessPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"QuickAccess"
+		"xpos"			"32"
+		"ypos"			"160"
+		"zpos"			"5"
+		"wide"			"260"
+		"tall"			"80"
+		"visible"		"1"
+
+		"border"		"MainMenuBGBorder"
+
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"Quick Access"
+			"textAlignment"	"west"
+			"xpos"			"12"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"textinsetx"	"0"
+			"fgcolor_override"	"235 227 203 255"
+		}
+	}
+	"UncletopiaButton"
+	{
+		"ControlName"				"URLLabel"
+		"fieldname"					"UncletopiaButton"
+		"xpos"						"40"
+		"ypos"						"c-53"
+		"zpos"						"20"
+		"wide"						"120"
+		"tall"						"20"
+		"visible"					"1"
+		"enabled"					"1"
+		"proportionaltoparent"		"1"
+		"labelText"					"Uncletopia"
+		"font"						"HudFontSmallBold"
+		"textAlignment"				"center"
+		"urlText"					"https://uncletopia.com/servers"
+		"FgColor_override"			"TanLight"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
+		"bgcolor_override"			"TanDark"
+	}
+	"PotatoMvMButton"
+	{
+		"ControlName"				"URLLabel"
+		"fieldname"					"PotatoMvmButton"
+		"xpos"						"165"
+		"ypos"						"c-53"
+		"zpos"						"20"
+		"wide"						"120"
+		"tall"						"20"
+		"visible"					"1"
+		"enabled"					"1"
+		"proportionaltoparent"		"1"
+		"labelText"					"Potato MvM"
+		"font"						"HudFontSmallBold"
+		"textAlignment"				"center"
+		"urlText"					"https://potato.tf/servers"
+		"FgColor_override"			"TanLight"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
+		"bgcolor_override"			"TanDark"
+	}
+	"WalkwayButton"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"WalkwayButton"
+		"labelText"					"Practice in Walkway"
+		"font"						"HudFontSmallBold"
+		"xpos"						"40"
+		"ypos"						"c-28"
+		"zpos"						"20"
+		"wide"						"245"
+		"tall"						"20"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"textinsetx"				"55"
+		"use_proportional_insets" 	"1"
+		"font"						"HudFontSmallBold"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"command"					"engine map tr_walkway_rc2"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override"   "TanDark"
+		"defaultBgColor_override"   "TanLight"
+
+		
+		"proportionaltoparent"		"1"
+
+		"paintbackground"			"1"
+	
+		"image_drawcolor"	"118 107 94 255"
+		"image_armedcolor"	"236 227 203 255"
+		
+		"SubImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"35"
+			"ypos"				"3"
+			"zpos"				"1"
+			"wide"				"15"
+			"tall"				"15"
+			"visible"			"1"
+			"enabled"			"1"
+			"scaleImage"		"1"
+			"image"				"glyph_practice"
+		}		
+	}
+}

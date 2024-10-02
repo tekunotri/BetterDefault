@@ -1,0 +1,14 @@
+///////////////////////////////////////////////
+// How to enable Medigun charge value shadow //
+///////////////////////////////////////////////
+
+--------------------------------------------------------------------------------------
+
+Go into the folders “resource/ui” and open “hudmediccharge.res”.
+
+Find “ChargeLabelBG” and set "visible" to "1" and save the file.
+
+--------------------------------------------------------------------------------------
+
+● When using the Vaccinator, the charge value shadow for the other Medigun is visible. 
+Be sure you only turn it on when you do not ever intend to use the Vaccinator.

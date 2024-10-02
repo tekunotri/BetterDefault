@@ -1,0 +1,4 @@
+*.cache
+*.bak
+*.ini
+sound/sound.cache

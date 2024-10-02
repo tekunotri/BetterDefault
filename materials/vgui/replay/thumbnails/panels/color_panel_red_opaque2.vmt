@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\panels/color_panel_red_opaque2"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

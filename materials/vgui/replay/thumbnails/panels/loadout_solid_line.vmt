@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay/thumbnails/panels\loadout_solid_line"
+	"$translucent" 1
+	"$ignorez" 1
+}
