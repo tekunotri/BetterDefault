@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
 		"xpos"			"c-55"
-		"ypos"			"31"
+		"ypos"			"21"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"30"

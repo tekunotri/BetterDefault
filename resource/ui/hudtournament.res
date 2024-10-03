@@ -33,10 +33,11 @@
 			"wide"					"500"
 			"tall"					"480"
 
+			"team1_player_base_x"			"66"
 			"team1_player_base_y"			"66"
-			"team1_player_delta_y" 			"0"
+			"team1_player_delta_x" 			"111"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_y"			"0"
+			"team2_player_delta_y"			"2"
 			"team2_player_delta_x"			"52"
 		}
 		

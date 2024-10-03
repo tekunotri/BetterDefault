@@ -647,10 +647,10 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"RespecButton"
-			"xpos"			"50"
+			"xpos"			"10"
 			"ypos"			"285"
 			"zpos"			"1"
-			"wide"			"120"
+			"wide"			"122"
 			"tall"			"17"
 			"autoResize"	"0"
 			"pinCorner"		"0"

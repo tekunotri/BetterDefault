@@ -72,7 +72,7 @@
 		"zpos"			"4"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_e_icon"
@@ -93,8 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"  &E"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&E"	[$WIN32]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -112,9 +111,9 @@
 		"xpos"			"c-136"
 		"ypos"			"c27"
 		"zpos"			"4"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
+		"wide"			"0" //20
+		"tall"			"0" //20
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_s_icon"
@@ -179,10 +178,45 @@
 			"ypos"			"7"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"image"			"replay/thumbnails/hud/key_q_icon"
+		}
+	}
+	"CancelOverlay"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"-40"
+		"ypos"			"-7"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"pin_to_sibling"	"CancelButtonV2"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"Q"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
 		}
 	}
 	"CancelButton" [$WIN32] 

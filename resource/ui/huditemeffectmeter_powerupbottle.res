@@ -7,7 +7,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"151" // 220
-		"ypos"			"r123" // r120
+		"ypos"			"r122" // r120
 		"wide"			"64"
 		"tall"			"27"
 		"MeterFG"		"White"
@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"0"
+		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"27"
@@ -81,8 +81,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"18"
-		"ypos"					"0"
+		"xpos"					"-2"
+		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"27"
 		"tall"					"27"	
@@ -102,8 +102,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBG"
-		"xpos"					"20"
-		"ypos"					"2"
+		"xpos"					"-2"
+		"ypos"					"-2"
 		"zpos"					"2"
 		"wide"					"27"
 		"tall"					"27"	
@@ -116,6 +116,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMediumBold"
-		"fgcolor"	"Black"
+		"fgcolor"				"Black"
+		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 }
