@@ -188,7 +188,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"HudFontSmallestBold"
-				"xpos"			"4"
+				"xpos"			"30"
 				"ypos"			"4"
 				"zpos"			"6"
 				"wide"			"o1"
