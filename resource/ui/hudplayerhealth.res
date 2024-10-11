@@ -123,7 +123,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudFontMediumSmall"
-		"disabledfgcolor2_override"		"0 0 0 255"
+		"disabledfgcolor2_override"		"Black"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 	"PlayerStatusHealthValue2"
@@ -188,7 +188,7 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"HudFontSmallest"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"PlayerStatusMaxHealthValue"
 	}
 		
