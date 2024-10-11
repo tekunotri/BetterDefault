@@ -107,7 +107,24 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudFontMediumSmall"
-		"disabledfgcolor2_override"		"TanDark"
+		"disabledfgcolor2_override"		"255 255 255 255"
+	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"5"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"0"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"HudFontMediumSmall"
+		"disabledfgcolor2_override"		"0 0 0 255"
+		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 	"PlayerStatusHealthValue2"
 	{
@@ -155,7 +172,24 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"HudFontSmallest"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"255 255 255 255"
+	}
+	"PlayerStatusMaxHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValueShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"	
+		"font"			"HudFontSmallest"
+		"fgcolor"		"0 0 0 255"
+		"pin_to_sibling"	"PlayerStatusMaxHealthValue"
 	}
 		
 	"PlayerStatusAnchor"

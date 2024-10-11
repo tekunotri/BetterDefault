@@ -33,6 +33,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
+		"fgcolor_override"	"255 255 255 255"
 	}		
 	"AmmoInClipShadow"
 	{
@@ -54,10 +55,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"HudFontMedium"
+		"font"			"HudFontMediumSmall"
 		"fgcolor"		"TanLight"
 		"xpos"			"80"
-		"ypos"			"7"
+		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"60"
 		"tall"			"40"
@@ -65,15 +66,16 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
+		"fgcolor_override"	"255 255 255 255"
 	}		
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"HudFontMedium"
+		"font"			"HudFontMediumSmall"
 		"fgcolor"		"Black"
-		"xpos"			"82"
-		"ypos"			"8"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"60"
 		"tall"			"40"
@@ -81,6 +83,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
+		"pin_to_sibling"	"AmmoInReserve"
+
 	}									
 	"AmmoNoClip"
 	{
@@ -98,6 +102,8 @@
 		"enabled"					"1"
 		"textAlignment"				"center"			
 		"labelText"					"%Ammo%"
+		"fgcolor_override"			"255 255 255 255"
+
 	}	
 	"AmmoNoClipShadow"
 	{
