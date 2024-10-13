@@ -418,7 +418,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CartImage"
-		"xpos"			"c-41"
+		"xpos"			"c-46"
 		"ypos"			"336"
 		"zpos"			"13"
 		"wide"			"24"

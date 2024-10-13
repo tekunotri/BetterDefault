@@ -116,8 +116,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"r298"
-		"ypos"				"r85"
+		"xpos"				"100" // temporary, original: r298
+		"ypos"				"r80" // temporary, original: r85
 		"zpos"				"1"
 		"wide"				"58"
 		"tall"				"34"
