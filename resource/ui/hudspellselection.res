@@ -2,8 +2,8 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"c115"
-		"ypos"			"c120"
+		"xpos"			"c120"
+		"ypos"			"c150"
 	}
 			
 	

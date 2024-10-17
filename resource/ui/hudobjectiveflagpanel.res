@@ -262,11 +262,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-20"
-		"ypos"			"r102"
+		"xpos"			"c-19"
+		"ypos"			"r97"
 		"zpos"			"8"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"36"
+		"tall"			"36"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -450,7 +450,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"r75"
 		"zpos"			"6"
-		"wide"			"40"
+		"wide"			"0" //default: 40, is this even needed considering it shows where other status icons show?
 		"tall"			"o1"
 		"visible"		"0"
 		"enabled"		"1"
@@ -458,12 +458,12 @@
 		"scaleImage"	"1"
 	}
 
-	"PoisonTimeLabel"
+	"PoisonTimeLabel" //todo move this later
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PoisonTimeLabel"
-		"xpos"			"cs-0.5"
-		"ypos"			"r65"
+		"xpos"			"cs-0.5+40" 
+		"ypos"			"r90"
 		"zpos"			"6"
 		"wide"			"40"
 		"tall"			"20"
