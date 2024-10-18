@@ -11,8 +11,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"2"
+		"ypos"			"7"
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
@@ -30,11 +30,12 @@
 		"font"			"HudFontMedium"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"25"
-		"ypos"			"1"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"wide"			"20"
 		"tall"			"24"
 		"fgcolor"		"Black"
+		"pin_to_sibling"	"CountText"
 	}
 	
 	"CountText"
@@ -44,10 +45,24 @@
 		"font"			"HudFontMedium"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"24"
-		"ypos"			"0"
+		"xpos"			"33"
+		"ypos"			"7"
 		"wide"			"20"
 		"tall"			"24"
 		"fgcolor"		"tanlight"
+	}
+	"Spellbook"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Spellbook"
+		"xpos"			"-5"
+		"ypos"			"-10"
+		"zpos"			"-1"
+		"wide"			"65"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"spellbook_book"
+		"scaleImage"	"1"		
 	}
 }

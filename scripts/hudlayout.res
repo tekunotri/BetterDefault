@@ -574,7 +574,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"wide"	 "80"
-		"tall"	 "40"
+		"tall"	 "70"
 		"zpos" 	"2"
 		"xpos"			"c164"
 		"ypos"			"c80"
