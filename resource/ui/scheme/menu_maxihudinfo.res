@@ -4,7 +4,7 @@ Scheme
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MaxiHudMark"
-		"labelText"			"Lethesen HUD"
+		"labelText"			""
 		"font"				"HudFontMediumBold"
 		"xpos"				"c-100"
 		"ypos"				"435"
