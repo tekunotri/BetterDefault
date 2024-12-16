@@ -444,12 +444,37 @@ Scheme
 				"outline"	"1"
 			}
 		}
-
-		"DamageNumbers"
+		// these are for dmg numbers
+		// preference mainly. sometimes smaller, sometimes bigger.
+		"DamageNumbers12"
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"12"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"DamageNumbers13"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"13"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"DamageNumbers14"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
 				"tall"		"14"
 				"weight"	"0"
 				"additive"	"0"
@@ -457,6 +482,79 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"DamageNumbers15"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"15"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"DamageNumbers16"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"16"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"DamageNumbers17"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"17"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"DamageNumbers18"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"18"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"DamageNumbers19"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"19"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"DamageNumbers20"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"20"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		// end of dmg numbers
 		"HudFontMediumSecondary"
 		{
 			"1"
