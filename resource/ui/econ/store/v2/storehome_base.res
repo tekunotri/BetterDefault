@@ -257,7 +257,7 @@
 		"xpos"				"c-45"
 		"ypos"				"38"
 		"zpos"				"0"
-		"wide"				"335"
+		"wide"				"365"
 		"tall"				"30"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -272,7 +272,7 @@
 		
 		"ButtonSettings"
 		{
-			"wide"				"100"
+			"wide"				"80"
 			"tall"				"30"
 			"textinsety"		"-5"
 			"autoResize"		"0"
@@ -282,7 +282,7 @@
 			"tabPosition"		"0"
 			"textAlignment"		"center"
 			"scaleImage"		"1"
-			"font"			"HudFontSmallestBold"
+			"font"			"StorePromotionsTitle"
 			
 			"fgcolor"	"124 114 99 255"
 			"defaultBgColor_override"	"38 35 33 255"
