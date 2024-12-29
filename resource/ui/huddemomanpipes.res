@@ -33,7 +33,7 @@
 		"labelText"				"SHIELD"
 		"textAlignment"			"north"
 		"use_proportional_insets"	"1"
-		"textinsety"	"3"
+		"textinsety"	"1"
 		"font"					"TFFontSmall"
 		"paintborder"			"1"
 		"border"				"TFFatLineBorder2"
