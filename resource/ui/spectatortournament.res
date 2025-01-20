@@ -1,5 +1,3 @@
-#base "hudinspectpanel.res"
-
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -11,77 +9,60 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-				
-		"team1_player_base_offset_x"		"200"
-		"team1_player_base_y"				"240" //482 228
+		
+		"team1_player_base_offset_x"		"-170"
+		"team1_player_base_y"				"150"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"39"
-		"team2_player_base_offset_x"		"260"
-		"team2_player_base_y"				"240"
+		"team1_player_delta_y"				"-15"
+		
+		"team2_player_base_offset_x"		"0"
+		"team2_player_base_y"				"150"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"39"
+		"team2_player_delta_y"				"-15"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"60"
-			"tall"			"40"
+			"wide"			"150"
+			"tall"			"16"
 			"zpos"			"1"
-			
+
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
-				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"9999" //4
-				"ypos"			"9999" //rs1
+				"fieldName"	"playername"
+				"font"		"Tournament_TiniestShadow"
+				"xpos"			"44"
+				"ypos"			"1"
 				"zpos"			"5"
-				"wide"			"0" //f0
-				"tall"			"0"
+				"wide"			"80"
+				"tall"			"14"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"" //%playername%
+				"visible"		"1"
+				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"proportionaltoparent"	"1"
-				//"fgcolor"		"235 226 202 255"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
+				"fgcolor"		"TanLight"
+
 			}
-			
+
+			// 4 3 for classimage/bg
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"4"
-				"ypos"			"4"
+				"ypos"			"3"
 				"zpos"			"2"
-				"wide"			"o1"
-				"tall"			"f16"
+				"wide"			"11"
+				"tall"			"11"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
-				"proportionaltoparent"	"1"
-				
-				if_mvm
-				{
-					"xpos"			"6"
-					"ypos"			"5"
-					"wide"			"19"
-					"tall"			"19"
-					"image"			"../vgui/hud_connecting"
-				}
 			}
 			
 			"classimagebg"
@@ -89,51 +70,35 @@
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"4"
-				"ypos"			"4"
+				"ypos"			"3"
 				"zpos"			"2"
-				"wide"			"o1"
-				"tall"			"f16"
+				"wide"			"11"
+				"tall"			"11"
 				"visible"		"1"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
 				
-				if_mvm
-				{
-					"xpos"			"6"
-					"ypos"			"5"
-					"visible"		"1"
-					"wide"			"19"
-					"tall"			"19"
-				}
 			}
 			
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"28"
-				"ypos"				"2"
+				"xpos"				"16"
+				"ypos"				"-5"
 				"zpos"				"3"
 				"wide"				"32"
-				"tall"				"f0"
+				"tall"				"32"
 				"visible"			"1"
 				"enabled"			"1"	
-				"proportionaltoparent"	"1"
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
-
-				"PlayerStatusHealthImage"
-				{
-					"xpos" 	"999"
-					"wide" 	"0"
-				}
 			}
-			
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
@@ -154,11 +119,7 @@
 			
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}	
+					
 			}
 			
 			"ReadyImage"
@@ -175,66 +136,50 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"hud/checkmark"
-				"scaleImage"		"1"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
+				"scaleImage"		"1"	
 			}
 			
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"HudFontSmallestBold"
-				"xpos"			"30"
-				"ypos"			"4"
-				"zpos"			"6"
-				"wide"			"o1"
-				"tall"			"f16"
-				"proportionaltoparent"	"1"
+				"font"			"Tournament_TiniestShadow"
+				"xpos"			"1"
+				"ypos"			"2"
+				"zpos"			"5"
+				"wide"			"32"
+				"tall"			"14"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"center"
-				//"fgcolor"		"235 226 202 255"
-				
-				if_mvm
-				{
-					"xpos"			"30"
-					"ypos"			"8"
-					
-				}
+				"textAlignment"	"east"
+				"fgcolor"		"TanLight"
 			}
-			
+
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"HudFontSmallestBold"
-				"xpos"			"4"
-				"ypos"			"4"
+				"font"			"Tournament_TinierShadow"
+				"xpos"			"114"
+				"ypos"			"2"
 				"zpos"			"6"
-				"wide"			"o1"
-				"tall"			"f16"
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				"wide"			"32"
+				"tall"			"13"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"center"
-				"proportionaltoparent"	"1"
+				"textAlignment"	"east"
 				"fgcolor"		"TanLight"
 			}
-			
+
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
 				"xpos"			"4"
-				"ypos"			"2"
+				"ypos"			"10"
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
@@ -245,22 +190,8 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
+
 			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
-		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
 		}		
 	}
 
@@ -290,35 +221,37 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"zpos"			"1"
-		"ypos_hidef"	"79"
-		"ypos_lodef"	"85"
-		"wide"			"600"
-		"tall"			"18"
-		"tall_hidef"		"23"
+		"xpos"			"c-150"
+		"ypos"			"98"
+		"wide"			"300"
+		"tall"			"19"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontMediumSmallSecondary"
-		
+		"font"			"Tournament_TinyShadow"
+		"fgcolor_override" "255 255 255 255"
+
+		if_comp
+		{
+			"ypos"		"85"
+		}
 		if_mvm
 		{
-			"ypos"			"358"
+			"xpos"			"c-190"
+			"ypos"			"1"
+			"wide"			"380"
+			"textAlignment"		"center"
 		}
 	}
-	
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"378"
-		"zpos"			"1"
+		"ypos"			"16"
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -334,9 +267,10 @@
 		if_mvm
 		{
 			"visible"		"1"
-		}	
+			"xpos"	"c30"
+			"ypos"	"1"
+		}
 	}
-	
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -353,206 +287,131 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"5"		[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"40"	[$X360]
-		"wide"			"0"	[$WIN32]
-		"wide"			"60"	[$X360]
-		"tall"			"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"visible"		"0"
 		
-	}
-	"CycleTargetFwdKeyLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"5"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"50"	[$X360]		
-		"wide"			"0"	[$WIN32]
-		"wide"			"60"	[$X360]
-		"tall"			"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
-	}
-	"Mouse1Icon"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Mouse1Icon"
-		"xpos"			"15"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/mouse1_icon"
-	}
-	"CycleTargetFwdLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"30"	[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"zpos"			"1"		
-		"wide"			"125"	[$WIN32]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"Spectate Next Target"
-		"textAlignment"		"west"
-		"font"			"HudFontSmallest"
-	}
-	"CycleTargetRevKeyLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"5"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"0"	[$WIN32]
-		"wide"			"60"	[$X360]		
-		"tall"			"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
-	}
-	"Mouse2Icon"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Mouse2Icon"
-		"xpos"			"15"
-		"ypos"			"27"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/mouse2_icon"
-	}
-	"CycleTargetRevLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"30"	[$WIN32]
-		"ypos"			"22"	[$WIN32]
-		"zpos"			"1"		
-		"wide"			"125"	[$WIN32]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"Spectate Previous Target"
-		"textAlignment"		"west"
-		"font"			"HudFontSmallest"
-	}
-	"SpacebarIcon"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"SpacebarIcon"
-		"xpos"			"16"
-		"ypos"			"32"
-		"zpos"			"1"
-		"wide"			"23"
-		"tall"			"23"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/key_space_icon"
-	}
-	"SwitchCamModeLabelPerma"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"SwitchCamModeLabelPerma"
-		"xpos"			"46"	[$WIN32]
-		"ypos"			"34"	[$WIN32]
-		"zpos"			"1"		
-		"wide"			"125"	[$WIN32]	
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
-		"labelText"		"Switch Camera Mode"
-		"textAlignment"		"west"
-		"font"			"HudFontSmallest"
 	}
 	"SwitchCamModeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"46"	[$WIN32]
-		"ypos"			"34"	[$WIN32]	
-		"wide"			"0"	[$WIN32]	
-		"tall"			"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"enabled"		"0"
-		"labelText"		"#TF_Spectator_SwitchCamMode"
-		"textAlignment"		"west"
-		"font"			"HudFontSmallest"
+		"visible"		"0"
+	}
+	"CycleTargetFwdKeyLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CycleTargetFwdKeyLabel"
+		"visible"		"0"
+	}
+	"CycleTargetFwdLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CycleTargetFwdLabel"
+		"visible"		"0"
+	}
+	"CycleTargetRevKeyLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CycleTargetRevKeyLabel"
+		"visible"		"0"
+	}
+	"CycleTargetRevLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CycleTargetRevLabel"
+		"visible"		"0"
 	}
 	"TipLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
 		"visible"		"0"
-	}	
-	"RespawningShadow"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"RespawningShadow"
-		"xpos"			"c-220"
-		"ypos"			"-35"
-		"zpos"			"0"
-		"wide"			"450"
-		"tall"			"450"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/shadow_respawning_mvm"
 	}
-	"ControlsShadow"
+	"itempanel"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ControlsShadow"
-		"xpos"			"-10"
-		"ypos"			"-5"
-		"zpos"			"0"
-		"wide"			"250"
-		"tall"			"260"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"itempanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"bgcolor_override"		"255 255 255 0"
+		"PaintBackgroundType"	"0"
+		
+		"model_ypos"		"10"
+		"model_center_x"	"1"
+		"model_wide"		"90"
+		"model_tall"		"60"
+		
+		"text_xpos"		"10"
+		"text_ypos"		"10"
+		"text_wide"		"170"
+		"text_center"	"1"
+		
+		"max_text_height"	"100"
+		"padding_height"	"10"
+		"resize_to_text"	"1"
+		"text_forcesize"	"2"
+		
+		"itemmodelpanel"
+		{
+			"fieldName"		"itemmodelpanel"
+			"use_item_rendertarget" "0"
+			"useparentbg"		"1"
+		}
+		
+		"ItemLabel"
+		{	
+			"ControlName"	"Label"
+			"fieldName"		"ItemLabel"
+			"font"			"DefaultSmall"
+			"xpos"			"10"
+			"ypos"			"3"
+			"zpos"			"1"
+			"wide"			"270"
+			"tall"			"9"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#FreezePanel_Item"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+		
+		"attriblabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"attriblabel"
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"zpos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"south"
+			"fgcolor"		"235 226 202 255"
+			"centerwrap"	"1"
+		}
+	}	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/shadow_controls"
-	}
+	}	
 }

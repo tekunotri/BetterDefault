@@ -555,6 +555,44 @@ Scheme
 			}
 		}
 		// end of dmg numbers
+		//start of tournament-specifics
+		"Tournament_TiniestShadow"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"10"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Tournament_TinierShadow"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"10"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Tournament_TinyShadow"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed"
+				"tall"		"11"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		//tournament end
 		"HudFontMediumSecondary"
 		{
 			"1"

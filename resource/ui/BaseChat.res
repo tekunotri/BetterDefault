@@ -6,10 +6,10 @@
 		"fieldName" 		      "HudChat"
 		"visible" 		        "1"
 		"enabled" 		        "1"
-		"xpos"			          "5"
-		"ypos"			          "170"
+		"xpos"			          "5" //5
+		"ypos"			          "170" //170
 		"wide"	 		          "260"
-		"tall"	 		          "120"
+		"tall"	 		          "120" //120
 		"PaintBackgroundType"	"2"
 	}
 

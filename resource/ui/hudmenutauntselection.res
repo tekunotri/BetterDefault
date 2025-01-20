@@ -158,12 +158,46 @@
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_1_icon"
 	}
-
+	"Number1Overlay"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Number1Overlay"
+		"xpos"			"35"
+		"ypos"			"140"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"1"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
+	}
 	"TauntModelPanel2"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -209,12 +243,46 @@
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_2_icon"
 	}
-
+	"Number2Overlay"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Number2Overlay"
+		"xpos"			"90"
+		"ypos"			"140"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"2"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
+	}
 	"TauntModelPanel3"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -260,12 +328,46 @@
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_3_icon"
 	}
-
+	"Number3Overlay"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Number3Overlay"
+		"xpos"			"145"
+		"ypos"			"140"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"3"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
+	}
 	"TauntModelPanel4"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -311,12 +413,46 @@
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_4_icon"
 	}
-
+	"Number4Overlay"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Number4Overlay"
+		"xpos"			"200"
+		"ypos"			"140"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"4"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
+	}
 	"TauntModelPanel5"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -362,12 +498,46 @@
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_5_icon"
 	}
-
+	"Number5Overlay"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Number5Overlay"
+		"xpos"			"255"
+		"ypos"			"140"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"5"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
+	}
 	"TauntModelPanel6"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -413,12 +583,46 @@
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_6_icon"
 	}
-
+	"Number6Overlay"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Number2Overlay"
+		"xpos"			"310"
+		"ypos"			"140"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"6"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
+	}
 	"TauntModelPanel7"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -464,12 +668,46 @@
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_7_icon"
 	}
-
+	"Number7Overlay"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Number7Overlay"
+		"xpos"			"365"
+		"ypos"			"140"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"7"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
+	}
 	"TauntModelPanel8"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -515,9 +753,44 @@
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"replay/thumbnails/hud/key_8_icon"
+	}
+		"Number8Overlay"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Number2Overlay"
+		"xpos"			"420"
+		"ypos"			"140"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"8"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
 	}
 }
