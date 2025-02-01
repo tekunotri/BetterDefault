@@ -385,8 +385,8 @@ Scheme
 		"ypos"			"72"
 		"zpos"			"-50"
 		"wide"			"320"
-		"tall"			"100"
-		"visible"		"0"
+		"tall"			"110"
+		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
@@ -440,10 +440,10 @@ Scheme
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
 		"xpos"			"4"
-		"ypos"			"94"
+		"ypos"			"92"
 		"zpos"			"-100"
 		"wide"			"260"
-		"tall"			"60" //154
+		"tall"			"62" //154
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"

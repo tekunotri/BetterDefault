@@ -82,8 +82,8 @@
 				"angles_y"	"180"
 				"angles_z"	"0"
 				"origin_x"		"45"
-				"origin_y"		"0"
-				"origin_z"		"0"
+				"origin_y"		"4"
+				"origin_z"		"-2"
 				"spotlight"	"1"
 
 				if_mini
@@ -189,7 +189,7 @@
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"f40"
+		"tall"			"f50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"

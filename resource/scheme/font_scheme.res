@@ -3288,7 +3288,7 @@ Scheme
 		}
 		"9"
 		{
-			"font" "resource/scheme/font/icons.ttf"
+			"font" "resource/scheme/font/TF2Icons.ttf"
 			"name" "TF2Icons"
 		}
 	}

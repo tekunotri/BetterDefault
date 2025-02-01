@@ -442,7 +442,7 @@
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
 			"xpos"			"90"
-			"ypos"			"50"
+			"ypos"			"45"
 			"fixed_item"
 			{
 				"ypos"		"30"

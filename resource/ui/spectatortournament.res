@@ -221,31 +221,23 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-150"
-		"ypos"			"98"
-		"wide"			"300"
-		"tall"			"19"
+		"xpos"			"c-300"	[$WIN32]
+		"ypos"			"47"	[$WIN32]
+		"zpos"			"1"
+		"ypos_hidef"	"79"
+		"ypos_lodef"	"85"
+		"wide"			"0"	[$WIN32]
+		"tall"			"18"
+		"tall_hidef"		"23"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Tournament_TinyShadow"
-		"fgcolor_override" "255 255 255 255"
-
-		if_comp
-		{
-			"ypos"		"85"
-		}
-		if_mvm
-		{
-			"xpos"			"c-190"
-			"ypos"			"1"
-			"wide"			"380"
-			"textAlignment"		"center"
-		}
+		"font"			"HudFontMediumSmallSecondary"
 	}
+
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"

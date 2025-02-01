@@ -41,7 +41,7 @@
 			"ypos"			"-35"
 			"zpos"			"100"
 			"wide"			"330"
-			"tall"			"92"
+			"tall"			"95"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"

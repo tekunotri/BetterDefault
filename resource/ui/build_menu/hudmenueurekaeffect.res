@@ -159,7 +159,7 @@
 	
 	"NumberKey1"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"Label"
 		"fieldName"		"NumberKey1"
 		"xpos"			"65"
 		"ypos"			"148"
@@ -168,13 +168,16 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/key_1_icon"
+		"border"		"KeyPadBorder"	
+		"font"			"HudFontSmallestBold"	
+		"fgcolor_override"	"Black"
+		"textAlignment"	"center"
+		"labelText"		"1"
 	}
 	
 	"NumberKey2"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"Label"
 		"fieldName"		"NumberKey2"
 		"xpos"			"165"
 		"ypos"			"148"
@@ -183,7 +186,10 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/key_2_icon"
+		"border"		"KeyPadBorder"	
+		"font"			"HudFontSmallestBold"	
+		"fgcolor_override"	"Black"
+		"textAlignment"	"center"
+		"labelText"		"2"
 	}
 }
