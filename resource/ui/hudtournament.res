@@ -376,7 +376,7 @@
 				}
 				if_mvm
 				{
-					"visible"		"0"
+					"visible"		"0" //set to 1 if asked
 				}
 			}
 			
