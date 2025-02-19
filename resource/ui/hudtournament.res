@@ -38,7 +38,7 @@
 			"team1_player_delta_x" 			"111"
 			"team2_player_base_y"			"66"
 			"team2_player_delta_y"			"2"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"54"
 		}
 		
 		if_competitive
@@ -373,6 +373,10 @@
 					"tall"			"p0.28"
 					"autoResize"	"1"
 					"proportionaltoparent" "1"
+				}
+				if_mvm
+				{
+					"visible"		"0"
 				}
 			}
 			
@@ -959,11 +963,12 @@
 		}
 	}
 	
+	// easier to move this to the side rather than fucking upwards for some reason god bless the tf2 dev team
 	"CountdownBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"192"
+		"xpos"			"232" // 192
 		"ypos"			"r47"
 		"zpos"			"1"
 		"wide"			"25"
@@ -993,7 +998,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountdownLabel"
 		"font"					"HudFontGiantBold"
-		"xpos"					"210"
+		"xpos"					"250" //210
 		"ypos"					"r55"
 		"wide"					"80"
 		"tall"					"40"
@@ -1030,7 +1035,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountdownLabelShadow"
 		"font"					"HudFontGiantBold"
-		"xpos"					"212"
+		"xpos"					"252" //212
 		"ypos"					"r54"
 		"wide"					"80"
 		"tall"					"43"

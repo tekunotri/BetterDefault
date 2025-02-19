@@ -97,7 +97,7 @@
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
 			"fieldName"		"UpgradeProgressTrack"
-			"xpos"			"c-50"
+			"xpos"			"c-40"
 			"ypos"			"r35"
 			"wide"			"640"
 			"tall"			"480"
@@ -108,7 +108,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel1"
-			"xpos"			"c32"
+			"xpos"			"c42"
 			"ypos"			"r24"
 			"wide"			"20"
 			"tall"			"20"
@@ -125,7 +125,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel2"
-			"xpos"			"c32"
+			"xpos"			"c42"
 			"ypos"			"r42"
 			"wide"			"20"
 			"tall"			"20"
@@ -142,7 +142,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel3"
-			"xpos"			"c32"
+			"xpos"			"c42"
 			"ypos"			"r60"
 			"wide"			"20"
 			"tall"			"20"
@@ -159,7 +159,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevelBoss"
-			"xpos"			"c32"
+			"xpos"			"c42"
 			"ypos"			"r46"
 			"wide"			"20"
 			"tall"			"40"

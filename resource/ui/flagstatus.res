@@ -12,6 +12,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+		
+		"if_mvm"
+		{
+			"ypos"		"-10"
+			"xpos"		"5"	
+		}
 	}
 	"Briefcase"
 	{

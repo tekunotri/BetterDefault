@@ -10,8 +10,9 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 		
-		"team1_player_base_offset_x"		"-170"
-		"team1_player_base_y"				"150"
+		//this looks like ass if you spectate, but if you're playing normally it's fine
+		"team1_player_base_offset_x"		"170" // -170 og
+		"team1_player_base_y"				"462"   // 150 og
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-15"
 		
@@ -236,6 +237,16 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"HudFontMediumSmallSecondary"
+
+		if_mvm
+		{
+			"wide"		"0"
+			"visible"	"1"
+			"xpos"	"c-190"
+			"ypos"	"-2"
+			"font"	"HudFontSmall"
+			"fgcolor"	"TanLight"
+		}
 	}
 
 	"BuyBackLabel"
@@ -243,7 +254,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"16"
+		"ypos"			"16" 
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -259,8 +270,8 @@
 		if_mvm
 		{
 			"visible"		"1"
-			"xpos"	"c30"
-			"ypos"	"1"
+			"xpos"	"c-190"
+			"ypos"	"11"
 		}
 	}
 	"MapLabel"

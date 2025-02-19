@@ -85,9 +85,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c70"
-		"ypos"			"c80"
-		"wide"			"96"
-		"tall"			"50"
+		"ypos"			"c70"
+		"wide"			"200"
+		"tall"			"100"
 	}
 	
 	HudDemomanCharge
@@ -1135,8 +1135,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"15"
-		"ypos"					"35"
+		"xpos"					"15" //proposed: 10
+		"ypos"					"35"	//proposed: -20
 		"wide"					"125"
 		"tall"					"70"
 	}
