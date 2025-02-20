@@ -2882,6 +2882,24 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFont14"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed" 
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		"HudFont16"
+		{
+			"1"
+			{
+				"name"		"TF2-Secondary-Fixed" 
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
 		"HudFont18"
 		{
 			"1"

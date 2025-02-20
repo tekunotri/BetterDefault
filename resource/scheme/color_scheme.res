@@ -192,5 +192,15 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+
+		//rainbow
+		
+        "UberRainbow1"                                     "255 000 000 255"
+        "UberRainbow2"                                     "255 127 000 255"
+        "UberRainbow3"                                     "255 255 000 255"
+        "UberRainbow4"                                     "000 255 000 255"
+        "UberRainbow5"                                     "000 000 255 255"
+        "UberRainbow6"                                     "075 000 130 255"
+        "UberRainbow7"                                     "139 000 255 255"
 	}
 }
