@@ -11,12 +11,12 @@
 		"enabled"		"1"
 		
 		//this looks like ass if you spectate, but if you're playing normally it's fine
-		"team1_player_base_offset_x"		"0" // -170 og
-		"team1_player_base_y"				"462"   // 150 og
+		"team1_player_base_offset_x"		"-315" // -170 og
+		"team1_player_base_y"				"412"   // 150 og
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-15"
 		
-		"team2_player_base_offset_x"		"0"
+		"team2_player_base_offset_x"		"-315"
 		"team2_player_base_y"				"150"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"-15"
@@ -222,18 +222,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"47"	[$WIN32]
+		"xpos"			"cs-0.5"	[$WIN32]
+		"ypos"			"60"	[$WIN32]
 		"zpos"			"1"
 		"ypos_hidef"	"79"
 		"ypos_lodef"	"85"
-		"wide"			"0"	[$WIN32]
+		"wide"			"300"	[$WIN32]
 		"tall"			"18"
 		"tall_hidef"		"23"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"HudFontMediumSmallSecondary"

@@ -1135,8 +1135,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"15" //proposed: 10
-		"ypos"					"35"	//proposed: -20
+		"xpos"					"155" //def: 155
+		"ypos"					"10"	//def: 10
 		"wide"					"125"
 		"tall"					"70"
 	}
