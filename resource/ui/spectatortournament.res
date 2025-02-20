@@ -11,7 +11,7 @@
 		"enabled"		"1"
 		
 		//this looks like ass if you spectate, but if you're playing normally it's fine
-		"team1_player_base_offset_x"		"170" // -170 og
+		"team1_player_base_offset_x"		"0" // -170 og
 		"team1_player_base_y"				"462"   // 150 og
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-15"
