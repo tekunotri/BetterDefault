@@ -50,15 +50,29 @@
 			"xpos"			"56"
 			"ypos"			"25"
 			"zpos"			"10"
-			"wide"			"100"
+			"wide"			"0" // def: 100
 			"tall"			"20"
 			"tall_lodef"	"24"
 			"tall_hidef"	"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"TanLight"
+		}
+		"BlueTeamImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BlueTeamImage"
+			"xpos"			"56"
+			"ypos"			"18"
+			"zpos"			"20"
+			"wide"			"33"
+			"tall"			"33"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/team_blue"
+			"scaleImage"		"1"
 		}							
 		"BlueTeamScore"
 		{
@@ -138,7 +152,7 @@
 			"xpos"			"224"
 			"ypos"			"25"
 			"zpos"			"10"
-			"wide"			"100"
+			"wide"			"0" //100
 			"tall"			"20"
 			"tall_lodef"	"24"
 			"tall_hidef"	"24"
@@ -147,6 +161,20 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"TanLight"
+		}
+		"RedTeamImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"RedTeamImage"
+			"xpos"			"290"
+			"ypos"			"12"
+			"zpos"			"20"
+			"wide"			"44"
+			"tall"			"44"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/team_red"
+			"scaleImage"		"1"
 		}							
 		"RedTeamScore"
 		{
