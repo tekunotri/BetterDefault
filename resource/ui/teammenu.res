@@ -122,8 +122,8 @@
 		"xpos"			"c-96"
 		"ypos"			"c0"
 		"zpos"			"5"
-		"wide"			"96"
-		"tall"			"62"
+		"wide"			"64" 	//96
+		"tall"			"62" 	//62
 		"visible"		"1"
 		"enabled"		"1"
 		"command"		"jointeam blue"
@@ -149,11 +149,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"redButton"
-		"xpos"			"c0"
+		"xpos"			"c0+30" //c0 
 		"ypos"			"c0"
 		"zpos"			"5"
-		"wide"			"96"
-		"tall"			"62"
+		"wide"			"64"	//96
+		"tall"			"62"	//62
 		"visible"		"1"
 		"enabled"		"1"
 		"command"		"jointeam red"
@@ -271,7 +271,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"c-32"
-		"ypos"			"c62"
+		"ypos"			"c0"
 		"zpos"			"6"
 		"wide"			"64"
 		"tall"			"16"
